@@ -1,0 +1,249 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#myNav{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 2;
+}
+#myNav img{
+    height: 30px;
+    margin-left: 150%;
+}
+#nav-ul1{
+    margin-left:25% ;
+}
+#nav-li{
+    list-style: none;
+    margin: 5px;
+}
+#nav-a{
+    color: whitesmoke;
+    font-size: 15px;
+}
+#nav-a:hover{
+    text-decoration: underline;
+    text-decoration-color: orangered;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 8px;
+}
+#nav-icon{
+ display: flex;
+}
+#nav-i{
+    color: whitesmoke;
+    margin: 5px;
+    margin-top:20px;
+    border-radius: 50%;
+    background-color: black;
+}
+#nav-i:hover{
+    background-color: cornflowerblue;
+}
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+}
+.bg1{
+    background-image: url(./images/img1.jpg);
+}
+.parallax .content {
+    text-align: center;
+}
+.parallax .content span{
+    font-weight: 100;
+}
+.parallax button{
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    border: solid 1px white;
+    width: 200px;
+}
+
+.parallax button:hover{
+    background-color: white;
+    color: black;
+}
+.content2{
+    padding: 30px;
+    margin-left: 60%;
+}
+.bg2{
+    background-image: url(./images/img2.jpg);
+}
+.content3{
+    padding: 30px;
+    margin-right: 50%;
+}
+.bg3{
+    background-image: url(./images/img3.jpg);
+}
+.bg4{
+    background-image: url(./images/img4.jpg);
+}
+.bg5{
+    background-image: url(./images/img5.jpg);
+}
+.content5{
+    color: black;
+    text-align: justify;
+    margin-right: 40%;
+    margin-left: 20%;
+}
+.bg6{
+    background-image: url(./images/img7.jpg);
+}
+.content6{
+    text-align: justify;
+    margin-left: 40%;
+}
+.bg7{
+    background-image: url(./images/img8.jpg);
+}
+.content7{
+    text-align: justify;
+    margin-right: 50%;
+}
+.bg8{
+    background-image: url(./images/img9.jpg);
+}
+.content8{
+    text-align: justify;
+    color: black;
+    margin-left: 60%;
+}
+.content8 button{
+    border:solid 1px black;
+    background-color: white;
+    color: black;
+    margin-left: 30px;
+}
+.content8 button:hover{
+    background-color: black;
+    color: white;
+}
+.bg9{
+    background-image: url(./images/img10.jpg);
+}
+.content9{
+    text-align: justify;
+    margin-right: 45%; 
+}
+#footer1{
+    background-color:whitesmoke ;
+    height: 100px;
+    padding: 45px;
+    display:flex ;
+    position: relative;
+}
+#footer-a{
+    color: black;
+    text-decoration: none;
+    padding: 2px;
+}
+#footer-i{
+    margin-left: 80%;
+    margin-top: -3%;
+}
+i{
+    padding: 10px;
+}
+#foot-i:hover{
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+}
+/* #footer-i2{
+   background-color:whitesmoke ;
+    width: 100%;
+    
+} */
+#foot-i2{
+    /* float: right; */
+    background-color:whitesmoke ;
+    width: 100%;
+    /* margin-left: 90%; */
+    /* margin-top: -10%; */
+}
+#foot-i2:hover{
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+
+
+/* media queries */
+@media(max-width:576px){
+    .content2{
+        padding: 30px;
+        margin-left: 20%;
+        /* color: black; */
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .content3{
+        padding: 30px;
+        margin-right: 0%;
+    }
+    .content5{
+        color: black;
+        text-align: center;
+        margin-right: 40%;
+        margin-left: 40%;
+    }
+    .content6{
+        text-align: justify;
+        margin-left: 15%;
+    }
+    .content7{
+        text-align: center;
+        margin-right: 10%;
+        color: black;
+        font-weight: 600;
+    }
+    .content8{
+        text-align: justify;
+        color: black;
+        margin-left: 5%;
+    }
+    .content8 button{
+        margin-left: 0px;
+    }
+    .content9{
+        text-align: center;
+        margin-right: 5%; 
+    }
+    #footer-a{
+        color: black;
+        text-decoration: none;
+        padding: 2px;
+        display: block;
+        text-align: center;
+    }
+    #footer-i{
+        margin-left: 20%;
+        margin-top: 3%;
+    }
+    #foot-i2{
+        background-color:whitesmoke ;
+        margin-top: 55%;
+        margin-left: 80%;
+    }
+}
